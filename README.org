@@ -1,5 +1,3 @@
-#+TITLE: Tabby
-
 Copyright (C) 2022 Xavier Ruiz 
 See the end of the file for license conditions.
 
@@ -29,9 +27,8 @@ j[[file:images/20220223-163113_screenshot.png]]
 
 These Corgis trot across the top bar. The closest, editable analogue of this is Emacs' tab bar.
 
-I also noticed other 
+I also noticed other editors such as the JOE editor can be modified to have a small Mario in the top bar per Bisqwit's video: https://www.youtube.com/watch?v=ZMBQmhO8KqI. But we don't want to use [[https://github.com/bisqwit/that_editor][that editor]]!
 
-I really wanted pets in Emacs.
 
 ** How it Works
 IDK if I will get this project to work. For now it is just an experiment.
@@ -41,6 +38,7 @@ My basic plan is to:
 3. Create SVG sprites and make some type of modular sprite system
 4. Create sprites for cat, dog, and robot
 5. Add clickable actions to the pets (such as sitting or feeding!)
+6. Make the pet show random tips, just like Clippy!
 
 
 ** License
@@ -65,5 +63,5 @@ along with GNU Emacs.  If not, see <http://www.gnu.org/licenses/>.
 
 #+STARTUP: showall
 #+OPTIONS: num:1 
-#+AUTHOR: GNU ELPA Maintainers
-#+EMAIL: emacs-devel@gnu.org
+#+AUTHOR: Xavier Ruiz
+#+EMAIL: xruizify@gmail.com
