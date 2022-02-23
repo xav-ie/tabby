@@ -1,0 +1,69 @@
+#+TITLE: Tabby
+
+Copyright (C) 2022 Xavier Ruiz 
+See the end of the file for license conditions.
+
+
+#+BEGIN_COMMENT
+This file is best viewed in Emacs!
+#+END_COMMENT
+
+* Tabby
+** About
+Ever wanted a pet in your tab bar?  Well, with the power of SVGs and tab-bar-mode magic, now you can!
+Choose from a variety of pets including:
+- cat
+- dog
+- robot
+
+This package requires Emacs 28 or higher, for the tab-bar-mode.
+
+In the future, there will be more pets added, but adding your own pet is also easy!
+Please see [[file:tabby.el][tabby-cat.el]] for an example of how to make a pet.
+
+
+** Inspiration
+This package aims to replicate the "Corgi Mode" from Google Colab:
+#+DOWNLOADED: screenshot @ 2022-02-23 16:31:13
+j[[file:images/20220223-163113_screenshot.png]]
+
+These Corgis trot across the top bar. The closest, editable analogue of this is Emacs' tab bar.
+
+I also noticed other 
+
+I really wanted pets in Emacs.
+
+** How it Works
+IDK if I will get this project to work. For now it is just an experiment.
+My basic plan is to:
+1. Get SVG's working.
+2. Position SVG's properly
+3. Create SVG sprites and make some type of modular sprite system
+4. Create sprites for cat, dog, and robot
+5. Add clickable actions to the pets (such as sitting or feeding!)
+
+
+** License
+This file is not currently part of GNU Emacs.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3, or (at your option)
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with GNU Emacs.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
+
+
+#+STARTUP: showall
+#+OPTIONS: num:1 
+#+AUTHOR: GNU ELPA Maintainers
+#+EMAIL: emacs-devel@gnu.org
