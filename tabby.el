@@ -1,5 +1,4 @@
 ;;; tabby --- Modifies the tab bar to have pets!
-;;;
 
 ;;; Author: Xavier Ruiz <xruizify@gmail.com>
 ;;; Version: 0.1
