@@ -33,6 +33,7 @@
 ;; - cat
 ;; - dog
 ;; - robot
+;;
 ;; This package requires Emacs 28 or higher, for the tab-bar-mode.
 ;;
 ;; In the future, there will be more pets added, but adding your own pet is also easy!
